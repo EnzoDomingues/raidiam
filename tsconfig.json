@@ -10,7 +10,8 @@
       "esnext"
     ],
     "types": [
-      "node"
+      "node",
+      "jest",
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -22,12 +23,16 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    "isolatedModules": false,
     "noEmit": true,
     "pretty": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "test.ts",
+    "**/*.spec.ts",
+    "jest.config.js"
+
   ],
   "references": [
     {

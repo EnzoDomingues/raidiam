@@ -44,6 +44,9 @@ const filteredList = () => {
 .filter-partipants {
   padding-top: 40px;
   padding-left: 40px;
+  padding-right: 40px;
+  margin: auto;
+  max-width: 1440px;
 }
 .filter-partipants input {
   width: 25%;
@@ -78,7 +81,7 @@ const filteredList = () => {
   margin-bottom: 10px;
   padding-top: 10px;
   padding-left: 15px;
-  width: 270px;
+  width: 262px;
   height: 180px;
   border: 1px solid var(--vt-c-white);
   border-radius: 8px;

@@ -17,12 +17,6 @@ export const useParticipantsStore = defineStore({
       loading: false,
       error: null,
     } as IParticipantsState),
-  getters: {
-    // getPostsPerAuthor: (state) => {
-    //   return (authorId) =>
-    //     state.posts.filter((post) => post.userId === authorId);
-    // },
-  },
   actions: {
     async fetchParticipants() {
       this.participants = [];
